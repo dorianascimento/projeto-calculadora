@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+   <div class="celular">
+    <div class="tela">
+        <div class="interface-resultado">
+            <div class="barra-superior">
+                ...
+            </div>
+            <div class="resultado-calculadora">
+                <div class="sinal-menor">-</div>
+                <div class="resultado"><p></p></div>
+            </div>
+        </div>
+        <div class="teclado">
+            <div class="botao cinza" onclick="limparCalculadora()">AC</div>
+            <div class="botao cinza">+/-</div>
+            <div class="botao cinza">%</div>
+            <div class="botao laranja dividir" onclick="divisao()">÷</div>
+            <div class="botao" onclick="teclaCalculadora(7)">7</div>
+            <div class="botao" onclick="teclaCalculadora(8)">8</div>
+            <div class="botao" onclick="teclaCalculadora(9)">9</div>
+            <div class="botao laranja vezes" onclick="multiplicacao()">X</div>
+            <div class="botao" onclick="teclaCalculadora(4)">4</div>
+            <div class="botao" onclick="teclaCalculadora(5)">5</div>
+            <div class="botao" onclick="teclaCalculadora(6)">6</div>
+            <div class="botao laranja menos" onclick="subtrair()">-</div>
+            <div class="botao" onclick="teclaCalculadora(1)">1</div>
+            <div class="botao" onclick="teclaCalculadora(2)">2</div>
+            <div class="botao" onclick="teclaCalculadora(3)">3</div>
+            <div class="botao laranja somar" onclick="somar()">+</div>
+            <div class="botao botao-grande" onclick="teclaCalculadora(0)"><span>0</span></div>
+            <div class="botao">,</div>
+            <div class="botao laranja" onclick="calcular()">=</div>
+        </div>
+    </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
