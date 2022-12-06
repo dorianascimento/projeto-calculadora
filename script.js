@@ -59,7 +59,7 @@ document.querySelector('.porcentagem').addEventListener('click', calcularPorcent
 document.querySelector('.negativo').addEventListener('click', transformarNegativo);
 document.querySelector('.limpar').addEventListener('click', limparCalculadora);
 for(let a = 0; a < 19; a++) {
-    let numerosClique = document.querySelectorAll('.botao.clique')[a];
+    let numerosClique = document.querySelectorAll('.botao')[a];
     numerosClique.addEventListener('click', (e)=>{
         // animação de clique no botão 
         numerosClique.classList.add('b-t');
