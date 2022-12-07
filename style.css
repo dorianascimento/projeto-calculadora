@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #222;
 }
 
 .celular {
@@ -100,4 +101,21 @@ body {
     color: #fff;
     font-size: 70px;
     margin-right: 37px;
+}
+
+.selecionado {
+    background-color: #fff !important;
+    color: #f69906 !important;
+}
+
+
+@media (max-width: 390px) {
+    .celular {
+        width: 280px;
+        height: 550px;
+    }
+    .botao {
+        width: 50px;
+    }
+
 }
